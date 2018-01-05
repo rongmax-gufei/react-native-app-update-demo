@@ -3492,9 +3492,9 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-app-update-for-android@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-app-update-for-android/-/react-native-app-update-for-android-1.0.0.tgz#d43d95286e72fb9a9df35639e6a5b1e4dc440573"
+react-native-app-update-for-android@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-app-update-for-android/-/react-native-app-update-for-android-1.0.9.tgz#aace5cfc9baf07606a2c09a2ba826a1fe4527d1a"
 
 react-native@0.51.0:
   version "0.51.0"

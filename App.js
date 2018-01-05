@@ -22,8 +22,11 @@ export default class App extends Component {
         update.downloadApp("https://pro-app-qn.fir.im/74fcb140162d207e2f26d8404ab039bd85063184.apk?attname=gxcj_v1.0.apk_1.0.apk&e=1515142173&token=LOvmia8oXF4xnLh0IdH05XMYpH6ENHNpARlmPc-T:JxcNdYEeUrUGpw5LJJHlq6ajhxk=");
     };
 
+
     handlerOpenAppStore = () => {
-        update.openAPPStore("123456");
+        update.openAPPStore("Your appStoreId", (value) => {
+            console.log(value);
+        });
     };
 
     render() {

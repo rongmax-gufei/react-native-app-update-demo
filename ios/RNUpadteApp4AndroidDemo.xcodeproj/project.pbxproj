@@ -146,9 +146,9 @@
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
-		18206E2B1FFF93360086E9D2 /* PBXContainerItemProxy */ = {
+		18206F181FFFC0D00086E9D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D5D84818DB5484AAC5DC571 /* RCTUpdateAppModule.xcodeproj */;
+			containerPortal = 4357621CFFE644768CA91D75 /* RCTUpdateAppModule.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18206DB91FFF8F9A0086E9D2;
 			remoteInfo = RCTUpdateAppModule;
@@ -298,7 +298,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNUpadteApp4AndroidDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNUpadteApp4AndroidDemo/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		4D5D84818DB5484AAC5DC571 /* RCTUpdateAppModule.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTUpdateAppModule.xcodeproj; path = "../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule/RCTUpdateAppModule.xcodeproj"; sourceTree = "<group>"; };
+		4357621CFFE644768CA91D75 /* RCTUpdateAppModule.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTUpdateAppModule.xcodeproj; path = "../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -436,10 +436,10 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		18206E281FFF93350086E9D2 /* Products */ = {
+		18206F051FFFC0D00086E9D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18206E2C1FFF93360086E9D2 /* libRCTUpdateAppModule.a */,
+				18206F191FFFC0D00086E9D2 /* libRCTUpdateAppModule.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -477,7 +477,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				4D5D84818DB5484AAC5DC571 /* RCTUpdateAppModule.xcodeproj */,
+				4357621CFFE644768CA91D75 /* RCTUpdateAppModule.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -605,8 +605,8 @@
 					ProjectRef = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
 				},
 				{
-					ProductGroup = 18206E281FFF93350086E9D2 /* Products */;
-					ProjectRef = 4D5D84818DB5484AAC5DC571 /* RCTUpdateAppModule.xcodeproj */;
+					ProductGroup = 18206F051FFFC0D00086E9D2 /* Products */;
+					ProjectRef = 4357621CFFE644768CA91D75 /* RCTUpdateAppModule.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302E01ABCB9EE00DB3ED1 /* Products */;
@@ -748,11 +748,11 @@
 			remoteRef = 18206E261FFF93350086E9D2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		18206E2C1FFF93360086E9D2 /* libRCTUpdateAppModule.a */ = {
+		18206F191FFFC0D00086E9D2 /* libRCTUpdateAppModule.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRCTUpdateAppModule.a;
-			remoteRef = 18206E2B1FFF93360086E9D2 /* PBXContainerItemProxy */;
+			remoteRef = 18206F181FFFC0D00086E9D2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
@@ -947,6 +947,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
 				);
 				INFOPLIST_FILE = RNUpadteApp4AndroidDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -974,6 +978,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
+					"$(SRCROOT)/../node_modules/react-native-app-update-for-android/ios/RCTUpdateAppModule",
 				);
 				INFOPLIST_FILE = RNUpadteApp4AndroidDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
