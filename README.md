@@ -12,5 +12,7 @@
 
 *   update.downloadApp("http://.../.apk");
     
-*   update.openAPPStore("appstoreid");
+*   update.openAPPStore("Your appStoreId", (value) => {
+        console.log(value);
+    });
 ```
