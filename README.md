@@ -3,7 +3,7 @@
 | ------------- |:---------------:|
 | gufei         | 799170694@qq.com|
 
-# RNUpdateApp4AndroidDemo
+# React Native App Update Demo
 [react-native-app-update-for-android 源码](https://github.com/midas-gufei/react-native-app-update-for-android)
 
 ### 实例代码说明：
